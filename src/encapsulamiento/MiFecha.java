@@ -28,8 +28,8 @@ public class MiFecha {
     private boolean resultado;
 
     MiFecha() {
-        this.dia = 10;
-        this.anio = 2015;
+        this.dia = 27;
+        this.anio = 2017;
         this.mes = 11;
     }
 
@@ -53,7 +53,7 @@ public class MiFecha {
     public boolean setMes(int dia, int mes, int anio) {
         resultado = verificarFecha(dia, mes, anio);
         if (resultado) {
-            this.dia = dia;
+            this.mes = mes;
         }
 
         return resultado;
@@ -66,7 +66,7 @@ public class MiFecha {
     public boolean setAnio(int dia, int mes, int anio) {
         resultado = verificarFecha(dia, mes, anio);
         if (resultado) {
-            this.dia = dia;
+            this.anio = anio;
         }
 
         return resultado;
