@@ -5,7 +5,7 @@
  */
 package encapsulamiento;
 
-import javax.swing.JComboBox;
+import encapsulamiento.Encapsulamiento.MiFecha;
 import javax.swing.JOptionPane;
 
 /**
@@ -14,7 +14,7 @@ import javax.swing.JOptionPane;
  */
 public class Ventana extends javax.swing.JFrame {
 
-    MiFecha miFecha = new MiFecha();
+    MiFecha miFecha = new Encapsulamiento().new MiFecha();
 
     public Ventana() {
 
